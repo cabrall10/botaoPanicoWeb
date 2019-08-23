@@ -8,10 +8,6 @@ ul {
 	overflow: hidden;
 }
 
-.card{
-	width: 25% !important;	
-}
-
 /**nav bar**/
 #navbar ul{
 	background-color:#03a9f4;
@@ -28,7 +24,15 @@ li a {
 	padding: 14px 16px;
 	text-decoration: none;
 }
-  
+
+.card-deck .card {
+  height: 320px;
+}
+
+#searchbar{
+  padding-top: 3%;
+}
+
 /* media das cards */
 @media (min-width: 0) {
     .card-deck .card {
