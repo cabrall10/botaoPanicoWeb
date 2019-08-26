@@ -8,10 +8,6 @@ ul {
 	overflow: hidden;
 }
 
-/**nav bar**/
-#navbar ul{
-	background-color:#03a9f4;
-}
 
 li {
 	float: left;
