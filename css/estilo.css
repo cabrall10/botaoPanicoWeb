@@ -29,6 +29,41 @@ li a {
   padding-top: 3%;
 }
 
+#navbar{
+  padding-top: 8vh !important;
+}
+
+/* configura footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+/** barra de separação do footer **/
+#after{
+  content:"";
+  position:absolute;
+  top:20%;
+  right:54.6%;
+  width:2px;
+  height:60%;
+  background: #a6a6a6;
+}
+#after2{
+  content:"";
+  position:absolute;
+  top:20%;
+  right:41.2%;
+  width:2px;
+  height:60%;
+  background: #a6a6a6;
+}
+/* fim do footer */
+
 /* media das cards */
 @media (min-width: 0) {
     .card-deck .card {
@@ -55,7 +90,7 @@ li a {
       flex: 0 0 calc(20% - 30px);
     }
   }
-/* ----- */
+/* fim do card */
 
 
 
