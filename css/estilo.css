@@ -39,8 +39,26 @@ li a {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #e6e6e6;
+  background-color: #006C9B;
   text-align: center;
+}
+
+.azul-navbar{
+  background: #416c94;
+}
+
+.btn-navbar{
+  border: none !important;
+}
+
+.btn-navbar.dropdown-toggle{
+  background: #416c94 !important;
+}
+
+.btn-navbar:hover,.btn-navbar:focus-within,.btn-navbar:active, .btn-navbar:focus, .btn-navbar:visited{
+  border: none !important;
+  box-shadow: none !important;
+  background: #416c94 !important;
 }
 
 /** barra de separação do footer **/
